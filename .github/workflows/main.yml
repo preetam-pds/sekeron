@@ -5,6 +5,7 @@ on:
     branches:
       - master # Change this to the branch you want to trigger the build and deploy on
 
+
 env:
   S3_BUCKET_NAME: sekeronpipelinebucket
   AWS_REGION: ap-south-1
