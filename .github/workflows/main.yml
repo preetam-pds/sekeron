@@ -14,7 +14,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: node:18.16.0
     
     environment:
       name: Production
