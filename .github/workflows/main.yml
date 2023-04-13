@@ -13,8 +13,8 @@ env:
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
 jobs:
-  build-and-deploy:
-    runs-on: node:18.14.2
+  deploy:
+    runs-on: node:latest
 
     steps:
       - name: Checkout code
