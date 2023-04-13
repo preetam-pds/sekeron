@@ -15,7 +15,7 @@ env:
 jobs:
   deploy:
     
-    runs-on: node:14.21.3
+    runs-on: node:16.20.0
     
     
 
