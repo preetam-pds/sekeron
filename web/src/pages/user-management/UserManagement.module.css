@@ -1,0 +1,423 @@
+/* login */
+
+.sekeron-icon-header {
+   width: 100%;
+   height: 80px;
+}
+
+.sekeron-icon-header-image-web {
+   width: auto;
+   height: 100%;
+   position: relative;
+   top: 20px;
+   left: 30px;
+}
+
+.sekeron-icon-header-image-mobile {
+   display: none;
+}
+
+.login-header {
+   font-weight: bold;
+   color: var(--quinary-blue-color);
+
+}
+
+.google-fb-login {
+   margin-top: 20px;
+   cursor: pointer;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.divider {
+   border-left: 0.5px solid var(--tertiary-grey-color);
+   position: relative;
+   left: 2%;
+}
+
+.login-container {
+   justify-content: center;
+   height: calc(85% - 250px);
+   margin-top: 6%;
+}
+
+.login-sub-container {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.joined-already {
+   font-weight: 300;
+   text-align: center;
+   color: var(--octonary-grey-color);
+   font-size: 1.6rem;
+}
+
+.continue {
+   width: 300px;
+   border-radius: 18px;
+   background-image: linear-gradient(288deg, #4fd8cc, #5c88ff);
+   font-family: "Comfortaa-Regular";
+   font-size: 1.6rem;
+   font-weight: bold;
+   text-align: center;
+   color: var(--white-color);
+   padding: 13px;
+   height: 50px;
+}
+
+.continue:disabled {
+   background-image: none;
+   font-family: "Comfortaa-Regular";
+   font-size: 1.6rem;
+   font-weight: bold;
+   text-align: center;
+   color: var(--quaternary-grey-color) !important;
+   background-color: var(--senary-lite-grey-color);
+   padding: 13px;
+}
+
+.verify {
+   width: 342px;
+   border-radius: 18px;
+   background-image: linear-gradient(288deg, #4fd8cc, #5c88ff);
+   font-family: "Comfortaa-Regular";
+   font-size: 1.6rem;
+   font-weight: bold;
+   text-align: center;
+   color: var(--white-color);
+   padding: 13px;
+   height: 55px;
+}
+
+.verify:disabled {
+   background-image: none;
+   font-family: "Comfortaa-Regular";
+   font-size: 1.6rem;
+   font-weight: bold;
+   text-align: center;
+   color: var(--quaternary-grey-color) !important;
+   background-color: var(--senary-lite-grey-color);
+   padding: 13px;
+}
+
+.login-link {
+   color: var(--secondary-blue-color) !important;
+   margin-left: 10px;
+   cursor: pointer;
+   font-size: 1.4rem;
+   text-decoration: none;
+   font-family: 'Comfortaa-Regular';
+   font-size: 1.6rem;
+   font-weight: 300;
+}
+
+.otp-input input {
+   width: 58px !important;
+   height: 59px !important;
+   border-radius: 21px;
+   border: solid 1.5px var(--tertiary-grey-color) !important;
+   background-color: var(--secondary-theme-color);
+   color: var(--white-color);
+   font-size: 20px;
+}
+
+.otp-input input:focus {
+   border: solid 1.5px var(--tertiary-grey-color) !important;
+   background-color: var(--secondary-theme-color);
+}
+
+.user-info {
+   color: var(--tertiary-grey-color);
+   font-family: 'Comfortaa-Regular';
+   font-size: 1.6rem;
+   font-weight: bold;
+}
+
+.user-info-resend-code {
+   color: var(--quaternary-grey-color);
+   font-family: 'Comfortaa-Regular';
+   font-size: 1.6rem;
+   font-weight: 300;
+}
+
+.user-info-send-to-details {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: var(--quaternary-grey-color);
+}
+
+.user-info-send-to-details h2 {
+   color: var(--tertiary-grey-color);
+   font-family: 'Comfortaa-Regular';
+   font-size: 1.6rem;
+   font-weight: bold;
+}
+
+.send-otp-to-phone-number {
+   color: var(--quaternary-blue-color);
+   font-family: 'Comfortaa-Regular';
+   font-size: 1.4rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.otp-container {
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   height: 60%
+}
+
+.slider-container {
+   display: block;
+}
+
+.form-fields-container {
+   flex-direction: column;
+   justify-content: space-around;
+   height: 100%;
+   align-items: center;
+}
+
+/* create-user */
+
+.render-form-container {
+   height: 50%;
+}
+
+.button-container {
+   margin-top: 50px;
+}
+
+.login-right-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.registration-sub-container {
+   justify-content: flex-start;
+   align-items: center;
+   text-align: center;
+   width: 80%;
+   margin: auto;
+   height: 100%;
+}
+
+.registration-form-container {
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   width: 70%;
+   margin: auto;
+   height: 100%;
+}
+
+.form-container {
+   height: 90%;
+   background-color: var(--secondary-theme-color);
+   width: 650px;
+   margin: auto;
+   border-radius: 12px;
+   position: relative;
+   top: 5%;
+}
+
+.stepper-container {
+   width: 100%;
+   height: 160px;
+   margin-top: 35px;
+   text-align: center;
+   row-gap: 32px;
+}
+
+.stepper-otp-container {
+   width: 100%;
+   height: 180px;
+   margin-top: 35px;
+   text-align: center;
+   row-gap: 40px;
+}
+
+.fields-container {
+   width: 100%;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   height: calc(100% - 263px);
+}
+
+.resend-otp {
+   color: var(--secondary-blue-color);
+}
+
+.create-user-header {
+   color: var(--primary-success-color);
+}
+
+.create-user-sub-header {
+   color: var(--octonary-grey-color);
+}
+
+::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.sekeron-logo {
+   margin-bottom: 40px;
+   justify-content: center;
+}
+
+@media only screen and (max-width:840px) {
+   .sekeron-icon-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .stepper-container {
+      row-gap: 24px;
+   }
+
+   .stepper-otp-container {
+      row-gap: 32px;
+      height: 160px;
+   }
+
+   .sekeron-icon-header-image-web {
+      display: none;
+   }
+
+   .sekeron-icon-header-image-mobile {
+      display: block !important;
+   }
+
+   .registration-sub-container {
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+   }
+
+   .registration-form-container {
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      height: 100%;
+      position: relative;
+   }
+
+   .form-container {
+      height: 99%;
+      background-color: var(--secondary-theme-color);
+      width: 100%;
+      margin: auto;
+      border-radius: 0px;
+      position: relative;
+      top: 0%;
+   }
+
+   .fields-container {
+      height: calc(100% - 220px);
+   }
+
+   .login-container {
+      justify-content: center;
+      height: calc(90% - 100px);
+      margin-top: 5%;
+   }
+
+   .divider {
+      display: none;
+   }
+
+   .otp-container {
+      height: 76%
+   }
+
+   .slider-container {
+      display: none;
+   }
+
+}
+
+@media (min-width:320px) and (max-width:375px) {
+   .render-form-container {
+      height: 58%;
+      overflow: scroll;
+   }
+
+   .button-container {
+      margin-top: 10px;
+   }
+
+   .verify {
+      width: 300px;
+   }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+   .login-header-mobile {
+      display: block !important;
+      text-align: center;
+      margin-top: 40px;
+      color: var(--quinary-blue-color)
+   }
+
+   .login-link-mobile {
+      display: block !important;
+   }
+
+   .joined-already-mobile {
+      display: block !important;
+   }
+
+   .login-sub-container {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 0px;
+      min-width: 100%;
+   }
+}
+
+@media (min-width:641px) and (max-width:840px) {
+   .login-header-mobile {
+      display: block !important;
+      text-align: center;
+      margin-top: 40px;
+      color: var(--quinary-blue-color)
+   }
+
+   .login-link-mobile {
+      display: block !important;
+   }
+
+   .joined-already-mobile {
+      display: block !important;
+   }
+
+   .login-sub-container {
+      padding-left: 0px;
+      padding-right: 0px;
+      min-width: 100%;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+   }
+
+   .registration-form-container {
+      width: 65%;
+   }
+}

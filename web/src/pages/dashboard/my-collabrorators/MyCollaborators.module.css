@@ -1,0 +1,185 @@
+.main-container {
+    height: 80%;
+    width: 1200px;
+    margin: auto;
+    top: 8%;
+    position: relative;
+}
+
+.sub-container {
+    height: 100%;
+}
+
+.tabs-container {
+    width: 500px;
+    height: 70px;
+}
+
+.collaborators-container {
+    height: calc(100% - 70px);
+    overflow-y: auto;
+    width: 100%;
+}
+
+.collaborator-card-container {
+    background-color: var(--secondary-theme-color) !important;
+    width: 100%;
+    height: 150px;
+    border-radius: 28px !important;
+    /* display: flex; */
+}
+
+.meeting-time-and-date {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--quaternary-grey-color) !important;
+    font-family: "Comfortaa-Regular";
+}
+
+.profile-container {
+    position: relative;
+}
+
+.card-header {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--white-color) !important;
+    font-weight: bold;
+}
+
+.profile-name {
+    color: var(--senary-grey-color) !important;
+    font-weight: bold;
+    font-family: "Comfortaa-Bold";
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.user-relationship-status {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--primary-blue-color) !important;
+}
+
+.collaboration-status {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--quinary-grey-color) !important;
+    font-family: "Comfortaa-Regular";
+}
+
+.updates-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.updates-container img {
+    width: 20px;
+}
+
+.notifications {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--septanary-grey-color) !important;
+    font-family: "Comfortaa-Regular";
+}
+
+.project-card-container {
+    margin: 10px 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 20px)
+}
+
+.meeting-time-and-date {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.meeting-time-and-date p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--quaternary-grey-color) !important;
+    font-family: "Comfortaa-Regular";
+}
+
+.info-container {
+    flex-direction: column;
+    row-gap: 4px;
+    width: calc(100% - 185px);
+}
+
+.card-container {
+    margin: 10px 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 20px)
+}
+
+@media only screen and (max-width:840px) {
+    .main-container {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        top: 0%;
+        position: relative;
+    }
+
+    .sub-container {
+        height: calc(100% - 55px);
+        overflow-y: auto;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .tabs-container {
+        width: 100%;
+        height: 60px;
+    }
+
+    .mobile-header-container {
+        padding: 0px 10px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile-header-container p {
+        color: var(--white-color);
+        font-size: 1.4rem;
+        font-family: "Comfortaa-Regular";
+    }
+
+    .info-container {
+        flex-direction: column;
+        row-gap: 4px;
+        width: calc(100% - 150px);
+    }
+
+    .updates-container {
+        width: 75px;
+    }
+}
+
+@media(min-width:840px) and (max-width:1200px) {
+    .main-container {
+        height: 80%;
+        width: 95%;
+        margin: auto;
+        top: 4%;
+        position: relative;
+    }
+
+    .tabs-container {
+        width: 500px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,186 @@
+.profile-detail-container > * {
+  margin-top: 25px;
+}
+.follow-message-btn_container.mobile {
+  display: none;
+}
+.follow-message-btn_container.web {
+  display: block;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+}
+.profile-name {
+  font-family: "Comfortaa-Bold";
+  color: var(--white-color);
+  font-size: 30px;
+}
+.profile-secondary-name {
+  font-family: "Comfortaa-Bold";
+  color: #a8aebc;
+  font-size: 26px;
+}
+.profile-skill {
+  font-family: "Comfortaa-Light";
+  color: #c1c1c1;
+  font-size: 20px;
+}
+.follow-details-wrapper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+}
+.follow-button {
+  width: 159px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  font-family: "Comfortaa-Regular";
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #5c88ff, #95fff6);
+}
+.message-button {
+  width: 159px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #95fff6, #5c88ff);
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa-Regular";
+  align-items: center;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.message-button>span{
+  font: inherit;
+  z-index: 1;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .message-button,
+  .follow-button {
+    width: 106px;
+    height: 39px;
+    font-size: 16px;
+    border-radius: 21px;
+  }
+  .profile-name {
+    font-size: 24px;
+  }
+  .profile-secondary-name {
+    font-size: 20px;
+  }
+  .profile-skill {
+    font-size: 18px;
+  }  
+  .profile-menu {
+    font-size: 18px;
+  }
+  .follow-details-wrapper{
+    column-gap: 3%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .message-button::after {
+    content: "";
+    width: 98%;
+    height: 95%;
+    background-color: black;
+    position: absolute;
+    border-radius: 21px;
+    z-index: 0;
+  }
+  .follow-details-wrapper{
+    justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .message-button::after {
+    content: "";
+    width: 98%;
+    height: 96%;
+    background-color: black;
+    position: absolute;
+    border-radius: 23px;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .follow-message-btn_container.mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .follow-message-btn_container.web {
+    display: none;
+  }
+  .message-button,
+  .follow-button {
+    width: 96px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 25px 0px 0px 25px;
+  }
+  .follow-button {
+    border-radius: 0px 25px 25px 0px;
+  }
+  .description-icon-container {
+    display: block;
+    background-color: #2f2d36;
+    width: 100%;
+    padding: 25px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .description-icon-container::before {
+    content: " ";
+    width: 110%;
+    height: 25%;
+    border-radius: 0 0 150% 150%;
+    position: absolute;
+    top: -7%;
+    right: -7%;
+    background-color: black;
+  }
+  .description-icon-container::after {
+    content: " ";
+    width: 110%;
+    height: 25%;
+    border-radius: 150% 150% 0 0;
+    position: absolute;
+    top: 75%;
+    right: -7%;
+    background-color: black;
+  }
+  .follow-details-wrapper{
+    column-gap: 5%;
+  }
+  .profile-detail-container > * {
+    margin-top: 12px;
+  }
+  .profile-name {
+    font-size: 20px;
+  }
+  .profile-secondary-name {
+    font-size: 18px;
+  }
+  .profile-skill {
+    font-size: 12px;
+  }  
+  .profile-menu {
+    font-size: 14px;
+  }
+}

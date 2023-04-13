@@ -1,0 +1,73 @@
+.container {
+    width: 750px;
+    background-color: var(--secondary-theme-color);
+    margin: auto;
+    border-radius: 18px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    overflow-y: auto;
+    height: calc(100% - 60px);
+    justify-content: center;
+}
+
+.checkbox-info {
+    color: var(--quaternary-grey-color);
+    font-family: "Comfortaa-Regular";
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.enter-location {
+    height: 50px;
+    width: 400px;
+    border-radius: 18px;
+    background-image: linear-gradient(288deg, var(--primary-success-color), var(--secondary-blue-color));
+    font-family: "Comfortaa-Regular";
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white-color);
+    padding: 13px;
+}
+
+@media only screen and (max-width:840px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        background: none;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: auto;
+        padding: 10px 10px 0px 10px;
+        overflow-y: auto;
+        height: calc(100% - 60px);
+        justify-content: center;
+    }
+
+    .enter-location {
+        width: 270px;
+        border-radius: 16px;
+    }
+}
+
+@media (min-width:840px) and (max-width:1400px) {
+    .container {
+        width: 700px;
+        /* height: 100%;
+        overflow-y: auto;
+        background: none; */
+    }
+}

@@ -1,0 +1,33 @@
+.new-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.new-icons {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.new-post,
+.new-project {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+    .new-post,
+    .new-project {
+        font-size: 1.6rem;
+    }
+}

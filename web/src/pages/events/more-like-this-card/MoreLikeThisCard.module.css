@@ -1,0 +1,91 @@
+.more-like-this-card {
+    min-height: 280px;
+    max-height: 350px;
+    background-color: var(--quaternary-theme-color);
+    border-radius: 12px;
+    position: relative;
+}
+
+.more-like-this-image {
+    object-fit: cover;
+    width: 100%;
+    min-height: 230px;
+    max-height: 250px;
+}
+
+.card-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.location {
+    color: var(--white-color);
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    cursor: pointer;
+}
+
+.time-and-date {
+    color: var(--secondary-blue-color);
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    cursor: pointer;
+}
+
+.profile-avatar {
+    padding: 10px;
+}
+
+.other-avatars {
+    color: var(--secondary-blue-color);
+    font-size: 1.2rem;
+    font-family: 'Comfortaa-Light';
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.screen-tag {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    background-image: linear-gradient(105deg, #f6bf7b, #ea4566, #151518);
+    background-color: var(--tertiary-theme-color);
+    font-size: 1.6rem;
+    font-family: 'Comfortaa-Bold';
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:820px) {
+    .card-details {
+        padding: 0px;
+    }
+
+    .profile-avatar {
+        padding: 0px;
+    }
+
+    .location,
+    .time-and-date {
+        font-size: 1.2rem;
+    }
+
+}

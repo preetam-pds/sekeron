@@ -1,0 +1,37 @@
+.accordion-detail-row{
+    display: flex;
+    align-items: center;
+}
+.accordion-icon-container {
+  width: 39px;
+  margin: 10px;
+  display: inline-block;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 20px;
+    padding-top: 40px;
+}
+.social_media{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .accordion-icon-container {
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .accordion-icon-container {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .accordion-icon-container {
+    width: 35px;
+  }
+}

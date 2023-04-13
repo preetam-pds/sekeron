@@ -1,0 +1,74 @@
+.user-details {
+    color: var(--tertiary-grey-color);
+    font-weight: 400;
+}
+
+.input-error {
+    color: var(--primary-error-color);
+    margin-top: 0px !important;
+    font-family: "Comfortaa-Regular"
+}
+
+.card-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    color: #7a7e88;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.27rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7a7e88;
+}
+
+.card-content-for-country-name {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    color: #7a7e88;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.27rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7a7e88;
+}
+
+.card-content-for-code {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    color: #7a7e88;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.27rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7a7e88;
+}
+
+.phone-number-menu {
+    max-height: 120px;
+    overflow-y: scroll;
+    background-color: #191c22;
+    border-radius: 18px;
+    margin-top: -30px;
+}
+
+.flags {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}

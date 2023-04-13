@@ -1,0 +1,54 @@
+.sketch-board-container {
+    /* position: relative; */
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+.sketch-board-header {
+    width: calc(100% - 40px);
+    padding: 20px;
+    height: 30px;
+    background-color: var(--quaternary-theme-color);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 0.1px var(--senary-lite-grey-color);
+}
+
+.color-wheel {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--white-color);
+    cursor: pointer;
+}
+
+.pen-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.controls-container-light-mode {
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    padding: 20px;
+    margin: auto;
+    background-color: var(--quinary-blue-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.controls-container-dark-mode {
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    padding: 20px;
+    margin: auto;
+    background-color: var(--quaternary-theme-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.full-screen-icon {
+    width: 40px;
+    cursor: pointer;
+}

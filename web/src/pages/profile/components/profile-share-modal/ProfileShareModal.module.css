@@ -1,0 +1,43 @@
+.modal-details{
+    padding: 0;
+    margin: 0;
+  } 
+ .send-button,.sent-button,.undo-button {
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Comfortaa-Bold';
+    padding: 0.75em 2.5em;
+    width: 180px;
+    border-radius: 1.25em 0 0 1.25em;
+    cursor: pointer;
+ }
+ .send-button{
+    border:none;
+    background-image: linear-gradient(to right, #5c88ff, #95fff6 );
+ }
+.sent-button{
+  border:1.2px solid #4e5567;
+  border-right: none;
+  background-image:  linear-gradient(to right, #000, #000 );  
+ }
+.undo-button{
+  background-color: #58287F;
+}
+ @media screen and (max-width:1024px){
+  .send-button,.sent-button{
+    font-size: 18px;
+    width: 140px;
+  }
+ }
+ @media screen and (max-width:900px){
+  .send-button,.sent-button{
+    font-size: 16px;
+    width: 120px;
+  }
+ }
+ @media screen and (max-width:600px){
+  .send-button,.sent-button{
+    font-size: 12px;
+    width: 80px;
+  }
+ }

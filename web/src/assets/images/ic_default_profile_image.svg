@@ -1,0 +1,23 @@
+<svg width="106" height="105" viewBox="0 0 106 105" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="225%" id="svtw158yic">
+            <stop stop-color="#EE9AE5" offset="0%"/>
+            <stop stop-color="#5961F9" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-125%" x2="50%" y2="100%" id="ajucbf5njd">
+            <stop stop-color="#EE9AE5" offset="0%"/>
+            <stop stop-color="#5961F9" offset="100%"/>
+        </linearGradient>
+        <ellipse id="be2dmx6fha" cx="50.094" cy="50" rx="50.094" ry="50"/>
+    </defs>
+    <g transform="translate(2.958 2.88)" fill="none" fill-rule="evenodd">
+        <mask id="ygn4j8cljb" fill="#fff">
+            <use xlink:href="#be2dmx6fha"/>
+        </mask>
+        <ellipse stroke="#5C88FF" stroke-width="2" cx="50.094" cy="50" rx="51.094" ry="51"/>
+        <g mask="url(#ygn4j8cljb)" fill-rule="nonzero">
+            <path d="M25 24.889c6.903 0 12.5-5.572 12.5-12.445C37.5 5.572 31.903 0 25 0c-6.904 0-12.5 5.572-12.5 12.444 0 6.873 5.596 12.445 12.5 12.445z" fill="url(#svtw158yic)" transform="translate(26.042 19.12)"/>
+            <path d="M0 46.667C0 51.82 4.197 56 9.375 56h31.25C45.803 56 50 51.821 50 46.667c0-5.155-4.688-15.556-25-15.556-20.313 0-25 10.4-25 15.556z" fill="url(#ajucbf5njd)" transform="translate(26.042 19.12)"/>
+        </g>
+    </g>
+</svg>

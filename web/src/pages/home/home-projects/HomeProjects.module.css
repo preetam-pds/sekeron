@@ -1,0 +1,59 @@
+.project-artist-container {
+    padding: 20px;
+    border-bottom: 1px solid var(--quinary-theme-color);
+    cursor: pointer;
+}
+
+.project-artist-container-last {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.project-season-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--senary-grey-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Comfortaa-Bold';
+}
+
+.forword-icon {
+    rotate: 270deg;
+    cursor: pointer;
+}
+
+.location-text {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.project-type-text {
+    color: var(--tertiary-blue-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: 'Comfortaa-Light';
+}

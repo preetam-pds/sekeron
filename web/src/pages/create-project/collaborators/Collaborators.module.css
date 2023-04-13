@@ -1,0 +1,216 @@
+.container {
+    height: 100%;
+}
+
+.collaborators-container {
+    width: 700px;
+    margin: auto;
+    background-color: var(--secondary-theme-color);
+    height: 98%;
+    border-radius: 20px;
+}
+
+.artist-type-details-container {
+    background-color: var(--secondary-theme-color);
+    height: 98%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.sub-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    height: calc(100% - 20px);
+}
+
+.required-artists {
+    color: var(--quaternary-lite-grey-color);
+    font-size: 2rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.required-artists span {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    margin-left: 10px;
+}
+
+.disclaimer {
+    color: var(--quaternary-lite-grey-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+    word-break: break-all;
+}
+
+.artists-container {
+    width: 100%;
+    height: calc(100% - 178px);
+    overflow: auto;
+    /* align-items: ; */
+}
+
+.artists-type {
+    color: var(--quaternary-blue-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.number-of-invites-added {
+    color: var(--octonary-grey-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.active-artists-type {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.right-arrow-icon {
+    fill: var(--octonary-grey-color);
+    font-size: 20px;
+    display: block;
+}
+
+.active-right-arrow-icon {
+    fill: var(--white-color);
+    font-size: 20px;
+    display: block;
+}
+
+.right-arrow-mobile {
+    display: none;
+}
+
+.counter-container {
+    background-color: var(--tertiary-theme-color);
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active-counter-container {
+    background: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active-counter-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quaternary-grey-color);
+    width: 35px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.active-counter-container svg {
+    fill: var(--white-color);
+    font-size: 20px;
+}
+
+.active-counter-container p {
+    color: var(--nonary-grey-color);
+    font-size: 1.4rem;
+}
+
+.counter-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quaternary-grey-color);
+    width: 35px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.counter-container svg {
+    fill: var(--octonary-grey-color);
+    font-size: 20px;
+}
+
+.counter-container p {
+    color: var(--nonary-grey-color);
+    font-size: 1.4rem;
+}
+
+.mobile-container {
+    display: none
+}
+
+@media screen and (max-width:840px) {
+    .container {
+        display: none;
+    }
+
+    .mobile-container {
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .required-artists {
+        font-size: 1.8rem;
+    }
+
+    .disclaimer {
+        font-size: 1.3rem;
+        height: 80px;
+    }
+
+    .selected-artist-cards-conatiner {
+        height: calc(100% - 235px);
+        overflow-y: auto;
+    }
+
+    .counter-container {
+        width: 130px;
+        height: 50px;
+    }
+
+    .counter-container div {
+        width: 35px;
+        height: 35px;
+    }
+
+    .counter-container svg {
+        font-size: 20px;
+    }
+
+    .right-arrow-mobile {
+        fill: var(--octonary-grey-color);
+        font-size: 20px;
+        display: block;
+    }
+
+    .right-arrow-icon {
+        display: none;
+    }
+
+    .active-right-arrow-icon {
+        display: none;
+    }
+}

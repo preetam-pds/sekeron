@@ -1,0 +1,324 @@
+.vertical-container {
+    background-color: var(--quaternary-theme-color);
+    border-radius: 12px;
+}
+
+.carousel-image {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    max-height: 430px;
+    min-height: 350px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.buzzer-notification {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.event-details {
+    width: 96%;
+    margin: auto;
+}
+
+.events-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-time-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.events-header {
+    font-family: 'Comfortaa-Light';
+    font-size: 2.2rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.events-hosted-by {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    padding: 10px 0px 0px 0px;
+}
+
+.events-posted-time {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+    padding: 0px 10px 0px 0px;
+}
+
+.horizontal-divider {
+    border: 1px solid var(--nonary-theme-color);
+    width: 100%;
+    position: relative;
+}
+
+.events-avatar-container {
+    color: var(--tertiary-blue-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.events-type {
+    display: flex;
+    align-items: center;
+}
+
+.events-avatars {
+    display: flex;
+}
+
+.photowalk,
+.music {
+    padding: 7px;
+    background-color: var(--white-color);
+    margin-right: 10px;
+    border-radius: 4.4px;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--primary-theme-color);
+    text-transform: capitalize;
+}
+
+.free {
+    padding: 7px;
+    background-color: var(--primary-success-color);
+    margin-right: 10px;
+    border-radius: 4.4px;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+    text-transform: capitalize;
+}
+
+.paid {
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 4.4px;
+    background-image: linear-gradient(244deg, #ffa973, #ff7591);
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+    text-transform: capitalize;
+}
+
+.music {
+    padding: 7px;
+    background-color: var(--white-color);
+    margin-right: 10px;
+    border-radius: 4.4px;
+}
+
+.ic_date-picker {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 0px 20px 0px 5px;
+    cursor: pointer;
+}
+
+.event-date-and-time {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.event-location {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.location,
+.admire {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.interaction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.admire-and-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.strings {
+    font-family: 'Comfortaa-Light';
+    font-size: 2rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    cursor: pointer;
+}
+
+.admire-icon {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.share-icon-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.share-icon {
+    object-fit: contain;
+    width: 26px;
+    height: 26px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.comment-icon {
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.horizontal-divider {
+    border: 1px solid var(--nonary-theme-color);
+    width: 100%;
+    position: relative;
+}
+
+.comments-and-admirations {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.admirations,
+.comments {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:420px) {
+    .events-avatar-container {
+        flex-direction: column;
+    }
+
+    .events-avatars {
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .comments-and-admirations {
+        flex-direction: row;
+        padding: 0px 10px;
+    }
+
+    .strings {
+        font-size: 1.4rem;
+    }
+
+    .admirations,
+    .comments {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:620px) and (max-width:1440px) {
+
+    .admirations,
+    .comments,
+    .strings {
+        font-size: 1.4rem;
+    }
+
+}

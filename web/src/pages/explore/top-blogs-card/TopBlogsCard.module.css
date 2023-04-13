@@ -1,0 +1,60 @@
+.popular-this-week-card {
+    background-color: var(--secondary-theme-color);
+    border-radius: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-this-header {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    padding: 15px 25px;
+}
+
+.populared-images {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.popular-this-description {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--quinary-blue-color);
+    padding: 10px 25px;
+}
+
+.read-now-of-popular {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--senary-theme-color);
+    border-radius: 0px 0px 24px 24px;
+    padding: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

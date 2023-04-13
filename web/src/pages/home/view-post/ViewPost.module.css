@@ -1,0 +1,315 @@
+.view-post-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 65%;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    height: calc(100%-25px);
+    padding-bottom: 20px;
+}
+
+.view-post-sub-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-button-mobile {
+    cursor: pointer;
+    display: none;
+    color: var(--secondary-lite-grey-color);
+    font-size: 32px;
+}
+
+.previous-button-web {
+    cursor: pointer;
+    display: block;
+    color: var(--secondary-lite-grey-color);
+    font-size: 52px;
+}
+
+.post-main-container {
+    background-color: var(--secondary-theme-color);
+    border-radius: 10px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+.name {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.post-location-container,
+.post-description-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 30px;
+}
+
+.post-location {
+    font-family: 'Comfortaa-Bold';
+    font-size: 3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.post-description {
+    color: var(--quaternary-grey-color);
+    font-size: 2rem;
+    font-family: 'Comfortaa-Light';
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+}
+
+.artist-profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.artiast-posts {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.post-interaction-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--octonary-grey-color);
+    font-size: 1.65rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.admire-icons {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.comment-icons,
+.share-icons,
+.favourite-icons {
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.admirations,
+.comments {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.constants {
+    cursor: pointer;
+    color: var(--octonary-grey-color);
+    font-size: 2rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.comments-container {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    max-height: 500px;
+
+    position: sticky;
+    top: 95px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.interaction-icons {
+    display: none;
+}
+
+.common-border {
+    border-bottom: 4px solid var(--primary-purple-color);
+}
+
+.audio-container {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 4px solid var(--primary-purple-color);
+}
+
+.share-post-profile-and-text-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.share-post-profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.previous-button {
+    color: var(--secondary-lite-grey-color);
+    font-size: 42px;
+}
+
+.write-message-text-field {
+    color: var(--quaternary-grey-color);
+    background: transparent;
+    outline: hidden;
+    border: none;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    resize: none;
+    text-align: start;
+}
+
+.write-message-text-field:focus-visible {
+    outline: none;
+}
+
+@media (min-width:1023px) and (max-width:1224px) {
+    .view-post-container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .previous-button-container {
+        display: none;
+    }
+
+    .previous-button-mobile {
+        display: block;
+    }
+
+    .previous-button-web {
+        display: none;
+    }
+
+    .view-post-container {
+        padding: 0px 0px 70px 0px;
+        width: 90%;
+    }
+
+    .post-container {
+        overflow-y: scroll;
+    }
+
+    .post-description {
+        font-size: 1.4rem;
+    }
+
+    .post-location {
+        font-size: 2rem;
+    }
+
+    .admire-icons {
+        width: 25px;
+        height: 25px;
+    }
+
+    .comment-icons {
+        width: 22px;
+        height: 22px;
+    }
+
+    .favourite-icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .share-icons {
+        width: 22px;
+        height: 22px;
+    }
+
+    .constants {
+        font-size: 1.8rem;
+    }
+
+    .comments-container {
+        display: none !important;
+        position: relative;
+    }
+
+    .interaction-icons {
+        display: block;
+    }
+
+    .audio-container {
+        min-height: 120px;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .constants {
+        font-size: 1.4rem;
+    }
+}

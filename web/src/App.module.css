@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+/* 
+.container img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+} */

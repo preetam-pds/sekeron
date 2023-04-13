@@ -1,0 +1,247 @@
+.preview-project {
+    width: 700px;
+    margin: auto;
+    height: 100%;
+    background-color: var(--secondary-theme-color);
+}
+
+.mobile-header-container {
+    display: none;
+}
+
+.preview-project-container {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+
+}
+
+.project-info-container {
+    height: calc(100% - 270px);
+    overflow-y: auto;
+}
+
+.info-container {
+    height: 155px;
+}
+
+.gallery-header {
+    color: var(--white-color);
+    font-family: "Comfortaa-Regular";
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.selected-media-container {
+    overflow-x: auto;
+    width: 100%
+}
+
+.posts-container {
+    height: 232px;
+}
+
+.divider {
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    border: 0.1px solid var(--octonary-theme-color)
+}
+
+.media-player-container {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.audio-player-container {
+    margin-right: 20px;
+    width: 500px;
+    min-height: 150px;
+    background-color: var(--quaternary-theme-color);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.uploaded-image {
+    height: 100%;
+    width: 200px;
+}
+
+.header {
+    color: var(--octonary-grey-color);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Comfortaa-Bold";
+}
+
+.project-date {
+    color: var(--septanary-lite-grey-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Comfortaa-Regular";
+    display: block;
+}
+
+.project-id {
+    color: var(--octonary-grey-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Comfortaa-Regular";
+}
+
+.project-id span {
+    color: var(--octonary-grey-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.artist-name {
+    color: var(--senary-grey-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    width: 55px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ratings-icon {
+    fill: var(--primary-info-color);
+    font-size: 20px;
+}
+
+.artist-ratings {
+    color: var(--senary-grey-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.project-title {
+    color: var(--tertiary-blue-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    font-weight: bold;
+}
+
+.description-header {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Bold";
+    font-weight: bold;
+}
+
+
+.description {
+    color: var(--quaternary-grey-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+    word-break: break-all;
+}
+
+.ownership-type {
+    color: var(--octonary-grey-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.ownership-type span {
+    color: var(--secondary-blue-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.publish-post,
+.publish-post:hover {
+    width: 200px;
+    border-radius: 18px;
+    background-image: linear-gradient(288deg, #4fd8cc, #5c88ff);
+    font-family: "Comfortaa-Regular";
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white-color);
+    padding: 13px;
+    height: 50px;
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-picker {
+    width: 17px;
+}
+
+.confirmation-message {
+    color: var(--octanary-lite-grey-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+}
+
+@media only screen and (max-width:840px) {
+
+    .preview-project {
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-header-container {
+        padding: 0px 10px;
+        background-color: var(--denary-theme-color);
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header {
+        font-size: 1.6rem;
+    }
+
+    .project-date {
+        font-size: 1.3rem;
+    }
+
+    .date-picker {
+        width: 15px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        row-gap: 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-info-container {
+        height: calc(100% - 330px);
+    }
+
+    .preview-project-header {
+        color: var(--white-color);
+        font-size: 1.4rem;
+        font-family: "Comfortaa-Regular";
+    }
+
+    .preview-project-container {
+        width: 90%;
+        margin: auto;
+        height: calc(100% - 40px);
+        padding-top: 10px;
+    }
+}
+
+@media (min-width:840px) and (max-width:1024px) {
+    .preview-project {
+        width: 600px;
+    }
+}

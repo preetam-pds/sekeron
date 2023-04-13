@@ -1,0 +1,36 @@
+const constants = {
+  otpMaxLength: 4,
+  otpInitialLength: 0,
+  otpTimer: 30,
+  maximumNumberOfRoles: 6,
+  minNumberOfCharacters: 3,
+  minimumAge: 18,
+  dateFormat: "DD/MM/YYYY",
+
+  imageType: "image/jpeg, image/jpg, image/png",
+  videoType: "video/*",
+  audioType: "audio/mp3",
+
+  loggedInUser: "",
+  defaultCountryCode: "+91",
+  follwLink: "Follow",
+  admire: "Admire",
+  comments: "Comment",
+  more: " more",
+  showLess: "  Show Less",
+  projects: "Projects",
+  seeAll: " SEE ALL",
+  events: "Events",
+  viewPost: "View Post",
+  admirations: "Admirations",
+  following: "Following",
+  follow: "Follow",
+  loginToken: "dummy token",
+  undo: "undo",
+  redo: "redo",
+  bold: "bold",
+  italic: "italic",
+  underline: "underline",
+};
+
+export default constants

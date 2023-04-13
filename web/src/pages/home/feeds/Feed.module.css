@@ -1,0 +1,501 @@
+.home-sub-container {
+    background-color: var(--secondary-theme-color);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.home-sub-container-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.80;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0) 100%, rgba(0, 0, 0) 50%, #000 0%);
+    z-index: 1;
+}
+
+.show-overlay-text {
+    color: var(--white-color);
+    text-align: center;
+    font-family: 'Comfortaa-Bold';
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 222;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.artist-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile-name {
+    margin-right: 15px;
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--senary-grey-color);
+    cursor: pointer;
+}
+
+.ic_more {
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    /* min-height: 400px;
+    max-height: 600px; */
+}
+
+.post-location {
+    color: var(--white-color);
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.92rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 30px 0px 20px 20px;
+    margin-top: 20px;
+}
+
+.post-description {
+    padding: 0px 10px 20px 20px;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.more {
+    cursor: pointer;
+    color: var(--quaternary-grey-color);
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.post-interaction-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--octonary-grey-color);
+    font-size: 1.65rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.post-admire-icons {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.post-comment-icon {
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.post-favourite-icon {
+    object-fit: contain;
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.post-share-icon {
+    object-fit: contain;
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.horizontal-divider {
+    border: 1px solid var(--nonary-theme-color);
+    width: 94%;
+    position: relative;
+    left: 3%;
+    right: 3%;
+}
+
+.admiration-and-comments-container {
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.65rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.follow-link {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    cursor: pointer;
+}
+
+.view-post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.view-post {
+    position: absolute;
+    bottom: 5%;
+    padding: 12px 31px 11px 32px;
+    border: solid 1.2px var(--tertiary-grey-color);
+    background-color: rgba(21, 21, 24, 0.52);
+    color: var(--octonary-grey-color);
+    border-radius: 18px;
+}
+
+.constants {
+    cursor: pointer;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.65rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.interest-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.undo-container {
+    padding: 10px;
+    font-family: 'Comfortaa-Regular';
+    background-color: var(--secondary-theme-color);
+    color: var(--quaternary-blue-color);
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    z-index: 20;
+}
+
+.tooltip-container {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    padding: 10px;
+}
+
+.write-message-text-field {
+    color: var(--quaternary-grey-color);
+    background: transparent;
+    outline: hidden;
+    border: none;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    resize: none;
+    text-align: start;
+}
+
+.write-message-text-field:focus-visible {
+    outline: none;
+}
+
+.share-post-profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.share-post-profile-and-text-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.events-header-container {
+    margin-bottom: 15px;
+}
+
+.see-all-text {
+    color: var(--secondary-blue-color);
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    cursor: pointer;
+}
+
+.events-text {
+    color: var(--primary-lite-grey-color);
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--primary-lite-grey-color);
+    cursor: pointer;
+}
+
+/* projects for mobil */
+
+.projects-container {
+    min-height: 300px;
+    max-height: 350px;
+    background-color: var(--secondary-theme-color);
+    border-radius: 24px;
+}
+
+.projects-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 24px 24px 0px 0px;
+}
+
+/* events for mobile  */
+
+.events-container {
+    min-height: 300px;
+    max-height: 350px;
+    background-color: var(--secondary-theme-color);
+    border-radius: 24px;
+    position: relative;
+}
+
+.events-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.events-location-mobile,
+.project-location-mobile {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.events-date-mobile,
+.project-date-mobile {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+}
+
+.project-profile-mobile {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.project-profile-name-mobile {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+.project-profile-follow-mobile {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+}
+
+.screen-tag {
+    position: absolute;
+    top: 10px;
+    left: -2px;
+}
+
+.event-type {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    font-family: "Comfortaa-Regular";
+    align-items: center;
+    position: relative;
+    border-radius: 18px;
+    cursor: pointer;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.event-type>span {
+    font-size: 1.2rem;
+    z-index: 1;
+    background: -webkit-linear-gradient(113deg, #f6bf7b, #ea4566 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    border: 1px solid transparent;
+    font-family: "Comfortaa-Regular";
+    font-weight: bold;
+}
+
+.event-type::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #151518;
+    position: absolute;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:540px) {
+
+    .post-admire-icons {
+        width: 25px;
+        height: 25px;
+    }
+
+    .post-comment-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .post-favourite-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .post-share-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .admiration-and-comments-container,
+    .constants {
+        font-size: 1.35rem;
+    }
+}
+
+@media (min-width:800px) and (max-width:920px) {
+
+    .post-admire-icons {
+        width: 25px;
+        height: 25px;
+    }
+
+    .post-comment-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .post-favourite-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .post-share-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .constants {
+        font-size: 1.34rem;
+    }
+}

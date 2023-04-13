@@ -1,0 +1,43 @@
+.media-card {
+    background-color: var(--quaternary-theme-color);
+    width: 90%;
+    height: 126px;
+    align-items: center;
+    display: flex;
+}
+
+.video-container {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.uploaded-image {
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    margin-left: 17px;
+}
+
+@media (min-width:640px) and (max-width:840px) {
+    .media-card {
+        background-color: var(--quaternary-theme-color);
+        width: 80%;
+        height: 126px;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media screen and (min-width:840px) {
+    .media-card {
+        background-color: var(--quaternary-theme-color);
+        width: 80%;
+        height: 126px;
+        align-items: center;
+        display: flex;
+    }
+}

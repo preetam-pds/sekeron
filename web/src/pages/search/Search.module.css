@@ -1,0 +1,46 @@
+.search-page-container {
+    position: relative;
+    top: 5%;
+    height: calc(100% - 5%);
+    width: 77%;
+    margin: auto;
+}
+
+.search-bar-for-mobile {
+    width: 100%;
+}
+
+.filter-by {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+}
+
+.outlined-names {
+    padding: 15px 25px;
+    border: 1px solid var(--quinary-grey-color);
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quinary-grey-color);
+    border-radius: 18px;
+}
+
+@media screen and (max-width:840px) {
+    .search-page-container {
+        position: relative;
+        top: 5%;
+        height: calc(100% - 5%);
+        width: 77%;
+        margin: auto;
+    }
+}

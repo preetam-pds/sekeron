@@ -1,0 +1,209 @@
+.artist-details-container {
+    height: 100%;
+    width: 100%;
+}
+
+.counter-container {
+    background-color: var(--tertiary-theme-color);
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quaternary-grey-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 14px;
+}
+
+.counter-container svg {
+    fill: var(--octonary-grey-color);
+    font-size: 20px;
+}
+
+.counter-container p {
+    color: var(--nonary-grey-color);
+    font-size: 1.4rem;
+}
+
+.artists-type {
+    color: var(--quaternary-blue-color);
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--denary-theme-color);
+    height: 50px;
+}
+
+.artist-hedaer {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.selected-artist {
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    color: var(--octonary-grey-color);
+}
+
+.selected-artist-indicator {
+    width: 10px;
+    height: 15px;
+    background-color: var(--secondary-blue-color);
+    border-radius: 7px;
+}
+
+.required-artist-indicator {
+    width: 10px;
+    height: 15px;
+    background-color: var(--quaternary-grey-color);
+    border-radius: 7px;
+}
+
+.required-artist {
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    color: var(--quaternary-grey-color);
+    font-weight: 500;
+}
+
+.tab-container {
+    height: calc(100% - 280px);
+    background-color: var(--quaternary-theme-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 95%;
+    margin: 10px auto 0px auto;
+}
+
+.info-icon {
+    fill: var(--octonary-grey-color)
+}
+
+.info {
+    color: var(--octonary-grey-color);
+    font-size: 1.4rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.artists-card {
+    border: 1px solid var(--quaternary-grey-color);
+    background-color: var(--primary-theme-color);
+    width: 90%;
+    height: 45px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 0px auto;
+}
+
+.artist-ratings {
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    color: var(--quinary-lite-grey-color);
+}
+
+.artist-name {
+    font-size: 1.6rem;
+    font-family: "Comfortaa-Regular";
+    color: var(--white-color);
+}
+
+.share-container {
+    background-color: var(--tertiary-theme-color);
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--quinary-grey-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.unequal-share-container {
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    color: var(--quinary-grey-color);
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+}
+
+.cancel-icon {
+    fill: var(--octonary-grey-color);
+    font-size: 25px;
+}
+
+.form-container {
+    height: calc(100% - 50px);
+    width: 90%;
+    margin: auto;
+}
+
+.share-form-container {
+    height: calc(100% - 50px);
+    width: 100%;
+}
+
+.collaboration-trems {
+    color: var(--quaternary-lite-grey-color);
+    font-size: 1.8rem;
+    font-family: "Comfortaa-Regular";
+}
+
+.terms-fields-container {
+    max-height: calc(100% - 100px);
+    overflow: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.add-more {
+    height: 50px;
+    width: 60%;
+    border-radius: 18px;
+    background-image: linear-gradient(288deg, var(--primary-success-color), var(--secondary-blue-color));
+    font-family: "Comfortaa-Regular";
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white-color);
+    padding: 13px;
+    margin: 0px auto;
+}
+
+.delete-icon {
+    fill: var(--primary-error-color);
+    font-size: 30px;
+}
+
+.ratings-icon {
+    fill: var(--primary-info-color);
+    font-size: 20px;
+}
+
+.selected-artists-container {
+    background-color: var(--secondary-theme-color);
+    border-radius: 10px;
+    padding: 0px 10px;
+    width: 80%;
+    margin: 0px auto;
+    height: 70px;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    align-items: center;
+}

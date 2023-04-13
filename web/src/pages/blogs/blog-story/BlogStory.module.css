@@ -1,0 +1,108 @@
+.blogs-container-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.80;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.24) 99%);
+    z-index: 1;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-text {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quinary-blue-color);
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    z-index: 100;
+}
+
+.description-read-now {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.sekeron-images {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+.bottom-details {
+    width: 100%;
+    position: absolute !important;
+    bottom: 5px !important;
+}
+
+.top-details {
+    width: 100%;
+    position: absolute !important;
+    top: 10% !important;
+    left: 3%;
+    z-index: 100;
+}
+
+.top-text-container {
+    font-family: 'Comfortaa-Left';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--senary-theme-color);
+}
+
+.top-text {
+    padding: 10px 30px;
+    background-color: var(--white-color);
+    border-radius: 16.1px;
+}
+
+@media screen and (max-width:1023px) {
+
+    .card-description {
+        flex-direction: column;
+    }
+
+    .description-text {
+        font-size: 1.4rem;
+        width: 77%;
+    }
+
+    .description-read-now {
+        font-size: 1.4rem;
+        width: 77%;
+    }
+}

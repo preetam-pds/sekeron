@@ -1,0 +1,139 @@
+.explore-container {
+    width: 73%;
+    margin: auto;
+    position: relative;
+    top: 6%;
+    height: calc(100% - 6%);
+}
+
+.sticky-tab-switcher {
+    position: sticky;
+    top: 60px;
+    background: black;
+    z-index: 100;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.ic-filter {
+    object-fit: contain;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-right: 1px solid #20252f;
+    border-width: 3px;
+}
+
+.header-tags {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.top-project-cards {
+    width: 100%;
+    margin: auto;
+}
+
+.featured-artists {
+    background-color: var(--tertiary-theme-color);
+    border-radius: 18px;
+    padding: 20px 50px;
+}
+
+.artists-tag {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+}
+
+.profile-list {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.artists-profile {
+    width: 130px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.profile {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    border: 2px solid #5c88ff;
+}
+
+.name {
+    font-family: 'Comfortaa-Light';
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.project-dialog-header {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+}
+
+@media screen and (max-width:840px) {
+    .explore-container {
+        width: 95%;
+        margin: auto;
+        top: 1%;
+        height: calc(100% - 1%);
+    }
+
+    .featured-artists {
+        background-color: var(--tertiary-theme-color);
+        border-radius: 18px;
+        padding: 20px 20px;
+    }
+
+    .sticky-tab-switcher {
+        top: 0px;
+        height: 63px;
+    }
+
+}

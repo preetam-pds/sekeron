@@ -1,0 +1,146 @@
+:root {
+
+  --header-height: 90px;
+
+  --white-color: #ffffff;
+
+  --primary-blue-color: #487aff;
+  --secondary-blue-color: #5c88ff;
+  --tertiary-blue-color: #5f7fd5;
+  --quaternary-blue-color: #526aab;
+  --quinary-blue-color: #dbe5ff;
+  --senary-blue-color: #53638d;
+  --septanary-blue-color: #e6ecff;
+  --octonary-blue-color: #edf1ff;
+
+  --primary-theme-color: #000000;
+  --secondary-theme-color: #0d0d0d;
+  --tertiary-theme-color: #151518;
+  --quaternary-theme-color: #101113;
+  --quinary-theme-color: #191c22;
+  --senary-theme-color: #17171c;
+  --septanary-theme-color: #2e2e2e;
+  --octonary-theme-color: #2d2d2d;
+  --nonary-theme-color: #161616;
+  --denary-theme-color: #0d0d0e;
+
+  --primary-lite-grey-color: #c0c4cf;
+  --secondary-lite-grey-color: #979797;
+  --tertiary-lite-grey-color: #20252f;
+  --quaternary-lite-grey-color: #616777;
+  --quinary-lite-grey-color: #a3afd0;
+  --senary-lite-grey-color: #31343e;
+  --septanary-lite-grey-color: #4e5566;
+  --octanary-lite-grey-color: #acb3c5;
+  --nonary-lite-grey-color: #d8d8d8;
+
+  --primary-purple-color: #6a0078;
+
+  --primary-grey-color: #58627e;
+  --secondary-grey-color: #3e4558;
+  --tertiary-grey-color: #4e5567;
+  --quaternary-grey-color: #576078;
+  --quinary-grey-color: #7a7e88;
+  --senary-grey-color: #8891a9;
+  --septanary-grey-color: #9fa6b9;
+  --octonary-grey-color: #a8aebc;
+  --nonary-grey-color: #ccd0db;
+  --denary-grey-color: #c4c4c4;
+  --duodenary-grey-color: #484848;
+
+  --primary-info-color: #f3a100;
+
+  --primary-success-color: #7aeacd;
+
+  --primary-error-color: #ff7e98;
+}
+
+/* FONT FACE FOR COMFORTAA */
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Medium";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Light.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-SemiBold";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-SemiBold.ttf");
+}
+
+/* CSS RESETS */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+html,
+body {
+  font-family: "Comfortaa-Regular", sans-serif;
+  font-size: 62.5% !important;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  background-color: var(--primary-theme-color);
+}
+
+.main-container {
+  background-color: var(--primary-theme-color);
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* SCROLL BAR CUSTOMIZATION STYLES */
+::-webkit-scrollbar {
+  background: #e0e0e0;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--black-color);
+  border-radius: 6px;
+}
+
+/* TEXTFIELD AUTOFILL BACKGROUND */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+  background: none;
+}
+
+.back-button {
+  display: none;
+}
+
+@media (min-width:300px) and (max-width:840px) {
+  .back-button {
+    fill: var(--secondary-lite-grey-color);
+    font-size: 25px;
+    display: block;
+  }
+}

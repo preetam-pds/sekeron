@@ -1,0 +1,5 @@
+.text-card-container {
+    word-break: break-all;
+    min-height: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,137 @@
+import {StyleSheet} from 'react-native';
+import Colors from '../../../../../resources/Colors';
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 4,
+    margin: 4,
+    width:'100%',
+    backgroundColor: Colors.secondaryThemeColor,
+    borderRadius: 20,
+    justifyContent: 'center',
+  },
+  secondaryContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    padding: 6,
+  },
+  thirdContainer: {
+    display: 'flex',
+    justifyContent: 'flex-start',
+    flex: 1.2,
+    margin: 4,
+  },
+  fouthContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  NotifiedON: {
+    color: Colors.nonaryThemeColor,
+    padding: 10,
+  },
+  notifierRegularText: {
+    fontFamily: 'Comfortaa-Bold',
+    color: Colors.whiteColor,
+    lineHeight: 25,
+    fontSize: 14,
+  },
+  notifierLightText: {
+    color: Colors.secondaryBlueColor,
+    fontWeight: '400',
+    lineHeight: 25,
+  },
+  photoWalkContainer: {
+    backgroundColor: Colors.whiteColor,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    borderRadius: 8,
+    overflow: 'hidden',
+    width: '30%',
+    marginVertical: 4,
+  },
+  eventPhotoWalkText: {
+    color: Colors.primaryThemeColor,
+    padding: 2,
+    textAlign: 'center',
+    alignItem: 'center',
+    fontSize: 12,
+    fontFamily: 'Comfortaa-Bold',
+    margin: 1,
+  },
+  notifierSubContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  notifierTimeAgo: {
+    color: Colors.nonaryThemeColor,
+    fontFamily: 'Comfortaa-Bold',
+    fontSize: 12,
+  },
+  notifiedImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 5,
+  },
+  avatarImagePrimary: {
+    width: 30,
+    height: 30,
+    borderRadius: 30,
+    backgroundColor: Colors.nonaryThemeColor,
+    position: 'relative',
+  },
+  avatorImageSecondary: {
+    width: 30,
+    height: 30,
+    borderRadius: 30,
+    backgroundColor: 'blue',
+    position: 'absolute',
+    top: 12,
+    left: 22,
+  },
+  avatorSingleImage: {
+    width: 70,
+    height: 70,
+    margin: 2,
+    backgroundColor: Colors.senaryThemeColor,
+    position: 'relative',
+  },
+  textContainer: {
+    flex: 4,
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+  textMessages: {
+    maxWidth: '91%',
+  },
+  semiContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    //   justifyContent: 'space-between',
+  },
+  imageStyles: {width: '100%', height: '100%'},
+  semiSubContainer: {width: 15, height: 15, marginHorizontal: 4},
+  imageContainer: {width: 15, height: 15, marginHorizontal: 4},
+  profileEventStatus: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.tertiaryThemeColor,
+    padding: 3,
+    borderTopLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    overflow: 'hidden',
+    position: 'absolute',
+    right: -2,
+    bottom: -6,
+  },
+  profileEventsubStatus: {
+    width: 15,
+    height: 15,
+    marginHorizontal: 4,
+    alignItems: 'center',
+  },
+});
+export default styles;

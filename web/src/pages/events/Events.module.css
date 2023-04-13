@@ -1,0 +1,86 @@
+.event-container {
+    width: 72.5%;
+    margin: auto;
+    position: relative;
+    top: 5%;
+    height: calc(100% - 5%);
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.events-dropdowns {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.date-picker {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.ic-date-picker {
+    object-fit: contain;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.filter-and-tab-switcher {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.write-message-text-field {
+    color: var(--quaternary-grey-color);
+    background: transparent;
+    outline: hidden;
+    border: none;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    resize: none;
+    text-align: start;
+}
+
+.write-message-text-field:focus-visible {
+    outline: none;
+}
+
+.share-post-profile-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.share-post-profile-and-text-area {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:1023px) {
+    .event-container {
+        width: 97%;
+    }
+
+    .ic-date-picker {
+        object-fit: contain;
+        height: 22px;
+        width: 22px;
+    }
+}

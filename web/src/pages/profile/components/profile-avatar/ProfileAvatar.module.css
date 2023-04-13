@@ -1,0 +1,38 @@
+.profile-avatar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-avatar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+}
+.profile-avatar{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 3px solid var(--white-color);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .profile-avatar-container{
+        width: 120px;
+        position: absolute;
+        top: -74px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+    .profile-avatar-container{        
+        width: 146px;
+        position: absolute;
+        top: -74px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .profile-avatar-container{
+        width: 160px;       
+    }
+}

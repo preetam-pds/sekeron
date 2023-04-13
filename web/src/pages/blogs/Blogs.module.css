@@ -1,0 +1,111 @@
+.blogs-container {
+    width: 72.5%;
+    margin: auto;
+    top: 20px;
+    height: calc(100%-20px);
+    position: relative;
+}
+
+.blog-contents {
+    position: relative;
+}
+
+.post-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.42);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.4rem;
+    color: var(--primary-theme-color);
+}
+
+.read-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.8rem;
+    color: var(--primary-theme-color);
+}
+
+.ic_forword {
+    padding-left: 20px;
+}
+
+.blog-subscribing {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--primary-success-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1023px) {
+
+    .blogs-container {
+        width: 94%;
+    }
+
+    .post-image {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-text {
+        font-size: 2rem;
+    }
+}
+
+.featured-blogs {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.popular-this-week {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}

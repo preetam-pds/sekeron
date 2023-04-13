@@ -1,0 +1,47 @@
+.otp-input input {
+    width: 58px !important;
+    height: 59px !important;
+    border-radius: 21px;
+    border: solid 1.5px var(--secondary-blue-color);
+    background-color: var(--secondary-theme-color);
+    color: var(--quinary-blue-color);
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.otp-input input:focus {
+    border: solid 1.5px var(--secondary-blue-color) !important;
+    background-color: var(--secondary-theme-color);
+}
+
+.resend-otp {
+    color: var(--secondary-blue-color);
+    cursor: pointer;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+.resend-otp-disabled {
+    color: var(--quaternary-grey-color);
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.resend-otp-timer {
+    color: var(--quaternary-grey-color);
+}
+
+.resend-otp-container {
+    margin-top: 30px;
+    font-family: 'Comfortaa-Regular';
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.otp-input-seperator {
+    width: 8px
+}

@@ -1,0 +1,59 @@
+.project-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    aspect-ratio: 10/12;
+    cursor: pointer;
+  }
+.project-name{
+  font-family: 'Comfortaa-Bold';
+  color: #fff;
+  font-size: 19px;
+  flex-basis: 100%;
+  white-space: nowrap;
+}
+.project-avatar{
+  border-radius: 50%;
+  width: 25px;
+  aspect-ratio: 1/1;
+}
+.project-member-name,.follow-text{
+  font-family: 'Comfortaa-Bold';
+  font-size: 16px;
+}
+.project-member-name{
+  color:#a8aebc;
+}
+.follow-text{
+  color:#5c88ff;
+  cursor: pointer;
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+  .project-name{
+    font-size: 12px;
+    width: 16px;
+  }
+  .project-member-name,.follow-text{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+  .project-name{
+    font-size: 16px;
+    width: 21px;
+  }
+  .project-member-name,.follow-text{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  .project-name{
+    font-size: 19px;
+    width: 23px;
+  }
+  .project-member-name,.follow-text{
+    font-size: 15px;
+  }
+}

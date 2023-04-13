@@ -1,0 +1,200 @@
+.comment-screen {
+    height: 100%;
+}
+
+.comments-profile-details {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    height: 80px;
+    background-color: var(--quinary-theme-color);
+    border-radius: 10px 10px 0px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.commenter-name {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    padding: 5px;
+}
+
+.comments {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+}
+
+
+.comment-by-poster {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    padding: 5px;
+}
+
+.commented-time {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quaternary-grey-color);
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.inside-comments {
+    overflow-y: scroll;
+    height: calc(100% - 50px);
+    background-color: var(--secondary-theme-color);
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+}
+
+.commenter-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-reply-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 5px;
+}
+
+.hide-replies {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    cursor: pointer;
+    padding: 20px;
+}
+
+.comment-post {
+    position: sticky;
+    bottom: 0px;
+}
+
+.add-a-comment-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--quinary-theme-color);
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+}
+
+.sub-add-a-comment-container {
+    background-color: var(--denary-theme-color);
+    display: flex;
+    flex-direction: row;
+    border-radius: 28px;
+    width: 70%;
+    padding: 10px;
+}
+
+.write-message-text-field {
+    color: var(--quaternary-grey-color);
+    background: transparent;
+    outline: hidden;
+    border: none;
+    font-family: 'Comfortaa-Light';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    resize: none;
+    text-align: start;
+}
+
+.write-message-text-field:focus-visible {
+    outline: none;
+}
+
+.post-string {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--secondary-blue-color);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1240px) {
+    /* .comment-screen {
+        top: 0px;
+    } */
+}
+
+@media screen and (max-width:540px) {
+
+    .comment-container {
+        padding: 0px 10px;
+    }
+
+    .comment-reply-container {
+        padding: 2px;
+    }
+
+    .add-a-comment-container {
+        padding: 5px 10px;
+    }
+
+    .sub-add-a-comment-container {
+        width: 70%;
+        padding: 5px;
+    }
+
+    .write-message-text-field {
+        font-size: 1.3rem;
+    }
+}

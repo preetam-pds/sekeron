@@ -1,0 +1,28 @@
+.custom-audio-container {
+  width: 90%;
+  margin: auto;
+}
+
+.current-play-time {
+  color: var(--primary-grey-color);
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.total-time {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--primary-grey-color);
+  font-size: 1rem;
+}
+
+.audio-play-pause-icon {
+  cursor: pointer !important;
+  font-size: 30px;
+  fill: var(--primary-grey-color);
+}
+
+.audio {
+  display: none;
+}

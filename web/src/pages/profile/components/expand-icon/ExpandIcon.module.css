@@ -1,0 +1,26 @@
+.expand_icon {
+  width: 25px;
+  height: 16px;
+}
+.expand_icon.active {
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .expand_icon {
+    width: 16px;
+    height: 10px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .expand_icon {
+    width: 19px;
+    height: 12px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .expand_icon {
+    width: 23px;
+    height: 14px;
+  }
+}

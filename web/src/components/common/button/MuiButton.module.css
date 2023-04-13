@@ -1,0 +1,141 @@
+ .filled-button {
+     width: 100%;
+     border-radius: 18px;
+     background-image: linear-gradient(288deg, #4fd8cc, #5c88ff);
+     font-family: "Comfortaa-Regular";
+     font-size: 1.4rem;
+     font-weight: bold;
+     text-align: center;
+     color: #fff;
+     padding: 10px;
+ }
+
+ .outlined-button,
+ .outlined-button:hover {
+     width: 100%;
+     padding: 13px;
+     border-radius: 18px !important;
+     border-width: 0.9px;
+     border-image-source: linear-gradient(282deg, #4fd8cc, #5c88ff);
+     border-image-slice: 2;
+     background-image: linear-gradient(to bottom, var(--dark-blue-1), var(--dark-blue-1)), linear-gradient(282deg, #4fd8cc, #5c88ff);
+     background-origin: border-box;
+     background-clip: content-box, border-box;
+     color: linear-gradient(277deg, #4fd8cc 100%, #5c88ff);
+ }
+
+ .warning-outlined-button,
+ .warning-outlined-button:hover,
+ .warning-outlined-button:focus {
+     width: 100%;
+     padding: 13px;
+     border-radius: 18px;
+     border: solid 2px var(--primary-error-color);
+     font-family: "Comfortaa-Regular";
+     font-size: 1.6rem;
+     font-weight: bold;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+     color: var(--primary-error-color);
+ }
+
+ .gradient-button {
+     width: 200px;
+     height: 50px;
+     font-size: 20px;
+     border-radius: 25px;
+     background-image: linear-gradient(282deg, #4fd8cc, #5c88ff);
+     display: flex;
+     justify-content: center;
+     font-family: "Comfortaa-Regular";
+     align-items: center;
+     position: relative;
+     border-radius: 18px;
+     cursor: pointer;
+     color: var(--white-color);
+ }
+
+ .gradient-button>span {
+     font-size: 1.6rem;
+     z-index: 1;
+     background: -webkit-linear-gradient(180deg, #4fd8cc, #5c88ff);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-weight: bold;
+     border: 1px solid transparent;
+     font-family: "Comfortaa-Regular";
+     font-weight: bold;
+ }
+
+ .gradient-button::after {
+     content: "";
+     width: 98%;
+     height: 95%;
+     background-color: #151518;
+     position: absolute;
+     border-radius: 18px;
+     z-index: 0;
+     cursor: pointer;
+ }
+
+ .cropped-button,
+ .cropped-button:hover {
+     border-top-left-radius: 27px;
+     border-bottom-left-radius: 27px;
+     border-bottom-right-radius: 0px;
+     border-top-right-radius: 0px;
+     border: solid 1.2px #4e5567;
+     border-right: none;
+     padding: 13px;
+     width: 170px;
+     font-family: 'Comfortaa-Bold';
+     font-size: 1.6rem;
+     font-weight: bold;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+     color: var(--octonary-grey-color);
+ }
+
+ .follow-button,
+ .follow-button:hover {
+     border-top-left-radius: 27px;
+     border-bottom-left-radius: 27px;
+     border-bottom-right-radius: 0px;
+     border-top-right-radius: 0px;
+     border: solid 1.2px #4e5567;
+     border-right: none;
+     padding: 13px;
+     width: 170px;
+     font-family: 'Comfortaa-Bold';
+     font-size: 1.6rem;
+     font-weight: bold;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+     color: var(--white-color);
+     background-image: linear-gradient(288deg, #4fd8cc, #5c88ff);
+ }
+
+ @media screen and (max-width:640px) {
+
+     .follow-button,
+     .follow-button:hover {
+         width: 90px;
+         font-size: 1.2rem;
+     }
+
+     .cropped-button,
+     .cropped-button:hover {
+         width: 90px;
+         font-size: 1.2rem;
+     }
+
+ }

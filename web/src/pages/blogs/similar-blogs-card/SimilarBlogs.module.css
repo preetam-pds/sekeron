@@ -1,0 +1,114 @@
+.similar-blogs-text {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+}
+
+.similar-blog-image {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.top-details {
+    width: 100%;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    z-index: 100;
+}
+
+.top-text-container {
+    font-family: 'Comfortaa-Left';
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--senary-theme-color);
+}
+
+.top-text {
+    padding: 10px 30px;
+    background-color: var(--white-color);
+    border-radius: 16.1px;
+}
+
+.bottom-details {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.card-description {
+    display: flex;
+}
+
+.description-text {
+    font-family: 'Comfortaa-Light';
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--quinary-blue-color);
+    width: 70%;
+    padding: 5px;
+    z-index: 100;
+}
+
+.description-read-now {
+    font-family: 'Comfortaa-Bold';
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-color);
+    width: 30%;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.similar-blogs-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.84) 99%);
+    z-index: 1;
+}
+
+@media screen and (max-width:1024px) {
+    .complete-view-container {
+        width: 94%;
+    }
+
+    .card-description {
+        flex-direction: column;
+    }
+
+    .description-read-now {
+        width: 90%;
+
+    }
+
+    .bottom-details {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+}

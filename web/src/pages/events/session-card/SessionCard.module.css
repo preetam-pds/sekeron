@@ -1,0 +1,24 @@
+.session-card {
+    max-height: 350px;
+    min-height: 250px;
+    background-color: var(--quaternary-theme-color);
+    padding: 15px;
+}
+
+.session-image {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+.session-header {
+    font-family: 'Comfortaa-Bold';
+    font-size: 2.6rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--octonary-grey-color);
+    padding: 10px;
+}

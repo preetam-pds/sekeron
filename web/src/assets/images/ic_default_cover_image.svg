@@ -1,0 +1,17 @@
+<svg width="359" height="165" viewBox="0 0 359 165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="-125%" x2="50%" y2="100%" id="aeg5992u8b">
+            <stop stop-color="#EE9AE5" offset="0%"/>
+            <stop stop-color="#5961F9" offset="100%"/>
+        </linearGradient>
+        <path id="6gj2vzyvna" d="M0 0h359v165H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="bb9qcy06tc" fill="#fff">
+            <use xlink:href="#6gj2vzyvna"/>
+        </mask>
+        <path stroke="#979797" d="M.5.5h358v164H.5z"/>
+        <ellipse fill="url(#aeg5992u8b)" fill-rule="nonzero" mask="url(#bb9qcy06tc)" cx="81.5" cy="76.5" rx="167.5" ry="166.5"/>
+        <ellipse fill="url(#aeg5992u8b)" fill-rule="nonzero" mask="url(#bb9qcy06tc)" transform="matrix(1 0 0 -1 0 153)" cx="438.5" cy="76.5" rx="167.5" ry="166.5"/>
+    </g>
+</svg>
