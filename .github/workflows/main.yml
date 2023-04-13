@@ -15,10 +15,9 @@ env:
 jobs:
   deploy:
     
-    runs-on: node:18.16.0
+    runs-on: node:14.21.3
     
-    environment:
-      name: Production
+    
 
     steps:
       - name: Checkout code
