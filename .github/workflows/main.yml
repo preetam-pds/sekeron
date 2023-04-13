@@ -31,7 +31,7 @@ jobs:
         run: cd web
 
       - name: Install domain dependencies
-        run: npm install "https://gitpkg.now.sh/preetam-pds/sekeron.git/domain?master"
+        run: npm install "https://gitpkg.now.sh/preetam-pds/sekeron/domain"
 
       - name: Install web dependencies
         run: npm install --force
